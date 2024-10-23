@@ -1,0 +1,287 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+    body {
+        width: 1500px;
+        /* Atur lebar maksimal konten untuk tampilan yang lebih besar */
+        margin: 0 auto;
+        /* Center the content */
+        background-color: black;
+    }
+
+
+        header {
+            width: 100%;
+            border-radius: 1rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #fff;
+            padding: 10px 20px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .logo h1 {
+            font-size: 24px;
+            color: #333;
+        }
+
+        .logo p {
+            font-size: 14px;
+            color: #ff6600;
+        }
+
+        nav ul {
+            display: flex;
+            list-style: none;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            border-radius: 0.5rem;
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+
+        nav ul li a:hover {
+            background-color: gainsboro;
+            transition: ease-in-out 0.7s;
+        }
+
+        nav ul li a.signup {
+            background-color: #ff6600;
+            padding: 8px 15px;
+            border-radius: 1.5rem;
+            color: #fff;
+        }
+
+        nav ul li a.signup:hover {
+            background-color: gainsboro;
+            transition: ease-in-out 0.7s;
+        }
+
+        nav ul li a.signin {
+            border: 2px solid #ff6600;
+            padding: 6px 13px;
+            border-radius: 1.5rem;
+            color: #ff6600;
+        }
+
+        nav ul li a.signin:hover {
+            background-color: gainsboro;
+            transition: ease-in-out 0.7s;
+        }
+
+        .hero {
+            display: flex;
+            border-radius: 1rem;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #ececec;
+            padding: 11rem;
+            text-align: left;
+        }
+
+        .hero img {
+            padding: 16px;
+        }
+
+        .hero-text h2 {
+            font-family: poppins;
+            font-size: 36px;
+            margin-bottom: 18px;
+        }
+
+        .hero-icons {
+            position: right;
+        }
+
+        .hero .btn {
+            padding: 12px 25px;
+            background-color: #ff6600;
+            color: white;
+            text-decoration: none;
+            border-radius: 1.5rem;
+            position: relative;
+            bottom: -70px;
+            left: -250px;
+        }
+
+        .about {
+            display: flex;
+            justify-content: space-around;
+            padding: 40px 20px;
+        }
+
+        .image-section {
+            text-align: center;
+        }
+
+        .image-section img {
+            width: 400px;
+            border-radius: 10px;
+            margin-bottom: 15px;
+        }
+
+        .features {
+            background-color: #000000;
+            color: white;
+            text-align: center;
+            padding: 40px 30px;
+            border-radius: 3rem;
+        }
+
+        .feature-item {
+            display: inline-block;
+            margin: 0 40px;
+        }
+
+        .feature-item h3 {
+            font-size: 40px;
+            font-style: bold;
+            color: #ffffff;
+            font-family: poppins;
+        }
+        
+
+        .quality {
+            text-align: center;
+            padding: 40px 20px;
+            background-color: #646464;
+            border-radius: 2rem;
+        }
+
+        .quality-item {
+            margin-bottom: 30px;
+        }
+
+        .quality-item h3 {
+            font-size: 35px;
+            color: #ffffff;
+            margin-bottom: 10px;
+        }
+
+        .quality-item p{
+            font-size: 15px;
+            color: #000000;
+        }
+
+        .tools {
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        .tools h2{
+            font-size: 40px;
+            font-style: bold;
+            color: #ffffff;
+            font-family: poppins;
+            margin-bottom: 50px;
+        }
+
+        .tool-item {
+            display: inline-block;
+            margin: 0 20px;
+        }
+
+        .tool-item img {
+            
+            width: 180px;
+            gap: 20px;
+            justify-content: space-evenly;
+            margin-bottom: 10px;
+        }
+        .tool-item p{
+            font-size: 15px;
+            color: #A1A1A3;
+        }
+
+        footer {
+            background-color: #1a1a1a; /* Latar belakang gelap */
+            color: #ffffff; /* Warna teks putih */
+            padding: 40px 0; /* Jarak vertikal */
+            text-align: center;
+        }
+        
+        footer .footer-content {
+            max-width: 1200px; /* Lebar maksimal untuk konten footer */
+            margin: 0 auto; /* Mengatur konten agar berada di tengah */
+            display: flex;
+            justify-content: space-around; /* Membagi konten secara rata */
+            flex-wrap: wrap; /* Membuat konten tetap rapi di layar kecil */
+        }
+        
+        footer .footer-column {
+            flex-basis: 30%; /* Lebar kolom */
+            margin-bottom: 20px; /* Jarak antar kolom */
+        }
+        
+        footer .footer-column h4 {
+            font-size: 18px; /* Ukuran judul */
+            color: #ff6600; /* Warna oranye dari desain */
+            margin-bottom: 10px; /* Jarak bawah */
+            text-transform: uppercase; /* Teks kapital */
+        }
+        
+        footer .footer-column ul {
+            list-style: none; /* Menghilangkan bullet list */
+            padding: 0;
+        }
+        
+        footer .footer-column ul li {
+            margin: 10px 0; /* Jarak antar item list */
+        }
+        
+        footer .footer-column ul li a {
+            color: #ffffff; /* Warna teks */
+            text-decoration: none; /* Menghilangkan garis bawah */
+            font-size: 16px; /* Ukuran teks */
+        }
+        
+        footer .footer-column ul li a:hover {
+            color: #ff6600; /* Warna hover sesuai desain */
+        }
+        
+        footer .social-icons {
+            display: flex; /* Mengatur tata letak ikon secara horizontal */
+            justify-content: center; /* Pusatkan ikon */
+            margin-top: 20px;
+        }
+        
+        footer .social-icons a {
+            color: #ffffff; /* Warna ikon putih */
+            font-size: 24px; /* Ukuran ikon */
+            margin: 0 10px; /* Jarak antar ikon */
+            transition: color 0.3s ease; /* Efek transisi saat hover */
+        }
+        
+        footer .social-icons a:hover {
+            color: #ff6600; /* Warna oranye saat hover */
+        }
+        
+        footer .copyright {
+            margin-top: 30px; /* Jarak atas */
+            font-size: 14px; /* Ukuran teks kecil */
+            color: #aaaaaa; /* Warna teks lebih terang */
+        }
+        
+        @media screen and (max-width: 768px) {
+            footer .footer-column {
+                flex-basis: 100%; /* Kolom memenuhi lebar layar pada perangkat kecil */
+                text-align: center;
+            }
+        
+            footer .social-icons {
+                margin-top: 30px;
+            }
+        }
+        
+    
