@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body, html {
+    height: 100%;
+}
+
+/* Login */
+.background {
+    background-image: url('/assets/background-login.jpg');
+    background-size: cover;
+    background-position: top;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-container {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 2rem;
+    border-radius: 2rem;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: start;
+}
+
+h2 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: bold;
+    color: #1A143C;
+    margin-bottom: 0.5rem;
+}
+
+p {
+    font-family: poppins;
+    font-style: normal;
+    color: #9693A5;
+    margin-bottom: 1.5rem;
+}
+
+
+.input-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.7rem;
+    background-color: #f0f0f0;
+    padding: 0.5rem;
+    border-radius: 0.8rem;
+}
+
+.input-group label {
+    margin-right: 0.5rem;
+    color: #6D6D6D;
+}
+
+.input-group input {
+    border: none;
+    background-color: transparent;
+    outline: none;
+    width: 100%;
+    padding: 0.5rem;
+    color: #333;
+}
+
+.toggle-password {
+    cursor: pointer;
+    color: #6D6D6D;
+    margin-left: 10px;
+}
+
+.forgot-password {
+    display: block;
+    text-align: right;
+    font-family: poppins;
+    margin-bottom: 1rem;
+    color: #262a2e;
+    text-decoration: none;
+}
+
+.forgot-password:hover {
+    text-decoration: underline;
+}
+
+.btn-signin, .btn-create-account {
+    width: 100%;
+    padding: 0.8rem;
+    margin-bottom: 0.5rem;
+    border: none;
+    border-radius: 1rem;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.btn-signin {
+    background-color: #000;
+    color: white;
+}
+
+.btn-create-account {
+    background-color: white;
+    color: #000;
+    border: 1px solid #000;
+}
+
+.btn-signin:hover, .btn-create-account:hover {
+    opacity: 0.8;
+}
+
+/* register */
